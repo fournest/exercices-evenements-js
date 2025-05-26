@@ -10,4 +10,3 @@ bouton.addEventListener(`click`, function(){
 // exercice 2
 
 
-
