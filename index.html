@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <button id="monBouton">bouton</button>
 
     <p id="texte">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, exercitationem?</p>
     <button id="modifierTexte">modifier texte</button>
+    <div id="zone" style="height: 100px; width: 200px;"></div>
+    <button id="compter">compter</button>
+    <p id="resultat"></p>
+    <label for="champNom">Entrez votre nom</label>
+    <input type="text" id="champNom" placeholder="Votre nom ici">
+    <button id="afficherNom">changer le texte</button>
+    <p id="message"></p>
+    <label for="champTexte">Entrez votre texte</label>
+    <textarea id="champTexte" class="active"></textarea>
+    <button id="toggleChamp">bouton</button>
+    <div id="container">Exercice 7 – Ajouter dynamiquement un élément à une liste</div>
+    <ul>
+        <li class="cliquable">1</li>
+        <li class="cliquable">2</li>
+        <li class="cliquable">3</li>
+        <li class="cliquable">4</li>
+        <li class="cliquable">5</li>
+    </ul>
+    <input type="text" id="champClavier" placeholder="Votre texte ici">
+    <p id="messageClavier"></p>
+
+
+    <ul>
+        <li class="animal">chat</li>
+        <li class="animal">chien</li>
+        <li class="animal">cheval</li>
+        <li class="animal">cochon</li>
+        <li class="animal">cerf</li>
+    </ul>
+
+    <input type="text" id="filtreAnimaux" placeholder="Votre animal ici">
 </body>
+
 </html>
